@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbza_PrXxKxd5VKuwmmSK3rtLEdtWd-qrV9-wvi7H4bM0uznRzqUyugWNcK6o9C-fdgeXw/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbw89D-ezgJhguHffhPnTab4FeoSbRG6Sp1LVhd1_T66CmqSb19xd6JtjTyhmY8e6eOVnw/exec";
 
 document.getElementById("matchForm").addEventListener("submit", function (e) {
   e.preventDefault();
