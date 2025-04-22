@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking de Tênis de Mesa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ranking de Tênis de Mesa - Alunos</h1>
+    <form id="matchForm">
+      <h2>Registrar Jogo</h2>
+      <input type="text" id="player1" placeholder="Jogador 1" required>
+      <input type="number" id="score1" placeholder="Pontos Jogador 1" required>
+      <input type="text" id="player2" placeholder="Jogador 2" required>
+      <input type="number" id="score2" placeholder="Pontos Jogador 2" required>
+      <button type="submit">Registrar Resultado</button>
+    </form>
+
+    <h2>Ranking</h2>
+    <table id="rankingTable">
+      <thead>
+        <tr>
+          <th>Posição</th>
+          <th>Jogador</th>
+          <th>Vitórias</th>
+          <th>Jogos</th>
+        </tr>
+      </thead>
+      <tbody id="rankingBody">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
